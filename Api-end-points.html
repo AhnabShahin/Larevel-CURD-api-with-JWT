@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    .dashboard h5 {
+        color: crimson;
+        font-weight: 700;
+    }
+
+    .dashboard span {
+        color: crimson;
+        font-weight: 400;
+    }
+</style>
+
+<body>
+
+
+    <div class='dashboard'>
+        <h5>Laravel API end point</h5>
+        <ul>
+            <li>https://rongobuy.brain-cache.com/api/login <span> Method POST, KEYS : username, password</span></li>
+            <li>https://rongobuy.brain-cache.com/api/register <span> Method POST, KEYS : username, email, phone,
+                    password</span></li>
+        </ul>
+        <ul>
+            <li>https://rongobuy.brain-cache.com/api/logout <span> Method GET with JWT</span></li>
+            <li>https://rongobuy.brain-cache.com/api/get_user <span> Method GET with JWT</span></li>
+            <li>https://rongobuy.brain-cache.com/api/products <span> Method GET with JWT to get all products</span></li>
+            <li>https://rongobuy.brain-cache.com/api/products/:id <span> Method GET with JWT to get product by id</span>
+            </li>
+            <li>https://rongobuy.brain-cache.com/api/create <span> Method POST with JWT to Add new product</span></li>
+            <li>https://rongobuy.brain-cache.com/api/update/:id <span> Method POST with JWT to edit product's by
+                    id</span></li>
+            <li>https://rongobuy.brain-cache.com/api/delete/:id <span> Method DELETE with JWT to delete product by
+                    id</span></li>
+        </ul>
+        <h5>Test user for testing end points</h5>
+        <ul>
+            <li>username : <span>shahin</span></li>
+            <li>pasword : <span>123456</span></li>
+        </ul>
+    </div>
+</body>
+
+</html>
